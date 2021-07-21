@@ -1,3 +1,4 @@
+/*zzzzzzzzzzz
 :root {
   --accent-color: #2196f3;
   --primary-white-color: #ffffff;
@@ -10,7 +11,8 @@
   --font-roboto: "Roboto";
   --font-releway: "Raleway";
 }
-
+zzzzzzzzzzzz*/
+/*zzzzzzzzzzzzz
 h1,
 h2,
 h3,
@@ -37,21 +39,28 @@ img {
 .link {
   text-decoration: none;
 }
+zzzzzzzzzzzzzzzzzzzzzzzzzz*/
 /*=============================*/
+
 /*==========Container=========*/
+/*zzzzzzzzzzzzzzzzzz
 .container {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
 }
+zzzzzzzzzzzzzzzzzz*/
 /*==========Section===========*/
+/*zzzzzzzzzzzzzz
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+zzzzzzzzzzzzzzzz*/
 /*==============================*/
 /*========COMPONENTS============*/
+/*zzzzzzzzzzzzzzzzz
 .section-title {
   font-weight: 700;
   font-size: 36px;
@@ -61,6 +70,9 @@ img {
   color: var(--title-text-color);
   margin-bottom: 50px;
 }
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzz*/
+
+/*zzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
 .component-btn{
   width: 200px;
   height: 50px;
@@ -87,6 +99,17 @@ img {
   .component-btn:focus {
   background-color: #188ce8;
 }
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz*/
+/*zzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+.social-list {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+}
+.social-item {
+  width: 44px;
+  height: 44px;
+}
 
 .social-link {
   display: flex;
@@ -106,11 +129,13 @@ img {
   fill: var(--primary-white-color);
   background-color: var(--accent-color);
 }
+zzzzzzzzzzzzzzzzzzzzzzzzzzz*/
 /*======END===COMPONENTS========*/
 /*========hidden================*/
+/*zzzzzzzzzzzzzzzzzzzzzzzzzzzzz
 .visualy-hidden {
   position: absolute !important;
-  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 *//*
   clip: rect(1px, 1px, 1px, 1px,);
   padding: 0 !important;
   border: 0 !important;
@@ -118,16 +143,20 @@ img {
   width: 1px !important;
   overflow: hidden;
 }
+zzzzzzzzzzzzzzzzzzzz*/
 /*====end==hidden===============*/
 /* ===========header==========*/
+/*zzzzzzzzzzzzzzz
 .body {
-  /*font-family: "Roboto", sans-serif;*/
+  /*font-family: "Roboto", sans-serif;*
   font-family: var(--font-roboto), sans-serif;
   color: var(--primary-text-color);
   font-weight: 400;
   background-color: var(--primary-white-color);
 }
+zzzzzzzzzzzzzzzzzzzzzzzz*/
 /*==Logo==*/
+/*zzzzzzzzzzzzzzzzzzzzzzz
 .logo {
   margin-right: 90px;
 
@@ -144,7 +173,9 @@ img {
 .logo-footer {
   color: var(--primary-white-color);
 }
+zzzzzzzzzzzzzzzzzzzzzzzzzz*/
 /*=END= Logo=*/
+/*zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
 .header {
   padding-top: 24px;
   padding-bottom: 25px;
@@ -175,7 +206,7 @@ img {
 }
 .menu-link {
   padding-top: 12px;
-  padding-bottom: 32px; /*для увеличения площади кликабельности + after кликабельный*/
+  padding-bottom: 32px; 
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -219,7 +250,7 @@ img {
   display: flex;
   align-items: center;
   padding-top: 12px;
-  padding-bottom: 12px; /*для увеличения площади кликабельности*/
+  padding-bottom: 12px; 
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -240,9 +271,11 @@ img {
 .connect-link-icon {
   margin-right: 10px;
 }
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz*/
 /* ===========END=== header==========*/
 
 /*=============hero============*/
+/*zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
 .hero {
   background-color: #2f303a;
   background-image: linear-gradient(
@@ -271,9 +304,11 @@ img {
   color: var(--primary-white-color);
   margin-bottom: 30px;
 }
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz*/
 /*=============END=== hero============*/
 
 /*==========Преимущества - edvantages====*/
+/*zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
 
 .edvantages-item:not(:last-child) {
   margin-right: 30px;
@@ -306,9 +341,11 @@ img {
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz*/
 /*========== END===   Преимущества - edvantages====*/
 
 /*==========benefits Чем мы занимаемся======*/
+/*zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
 .benefits-list {
   display: flex;
   margin-top: -30px;
@@ -342,17 +379,18 @@ img {
   padding-top: 27px;
   padding-bottom: 27px;
 }
-
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz*/
 /*==========END===  benefits Чем мы занимаемся======*/
 
 /*==========Team Наша команда======*/
+/*zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
 .team {
   background-color: var(--background-color-light);
 }
 
 .team-list {
   display: flex;
-  flex-wrap: wrap; /* на случай увеличениея кол-во членов команды*/
+  flex-wrap: wrap; /* на случай увеличениея кол-во членов команды*//*
   margin-left: -30px;
   margin-top: -30px;
 }
@@ -383,16 +421,17 @@ img {
   letter-spacing: 0.03em;
   margin-bottom: 16px;
 }
+.team-social-link {
 
-.team-social-list {
-  display: flex;
-  justify-content: center;
-  justify-content: space-between;
+  fill: var(--social-color);
 }
-.team-social-item {
-  width: 44px;
-  height: 44px;
+
+
+.team-card {
+  padding: 30px 30px;
+  background-color: var(--primary-white-color);
 }
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz*/
 /*
 .team-social-link {
   display: flex;
@@ -413,19 +452,11 @@ img {
   background-color: var(--accent-color);
 }
 */
-.team-social-link {
 
-  fill: var(--social-color);
-}
-
-
-.team-card {
-  padding: 30px 30px;
-  background-color: var(--primary-white-color);
-}
 /*==========END=== Team Наша команда======*/
 
 /*=========Clients====Постоянные клтенты===*/
+/*zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
 .clients-list {
   display: flex;
   flex-wrap: wrap;
@@ -457,9 +488,11 @@ img {
   margin-right: 30px;
   flex-basis: calc((100% - 180px) / 6);
 }
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz*/
 /*=========END===Clients====Постоянные клтенты===*/
 
 /*==========Footer============*/
+/*zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
 .footer {
   background-color: #2f303a;
   padding-top: 60px;
@@ -510,19 +543,20 @@ img {
   color: var(--primary-white-color);
   margin-bottom: 20px;
 }
-.footer-social-list {
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz*/
+/*.footer-social-list {
   display: flex;
   justify-content: center;
   justify-content: space-between;
-}
-
+}*/
+/*
 .footer-social-item {
   width: 44px;
   height: 44px;
-}
+}*//*
 .footer-social-item:not(:last-child) {
   margin-right: 10px;
-}
+}*/
 /*
 .footer-social-link {
   display: flex;
@@ -540,11 +574,14 @@ img {
 .footer-social-link:focus {
   background-color: var(--accent-color);
 }*/
+
+/*zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
 .footer-social-link {
   background: rgba(255, 255, 255, 0.1);
   fill: var(--primary-white-color);
 }
 /*=====newsletter=====*/
+/*zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
 .footer-newsletter {
   margin-top: 12px;
 }
@@ -595,10 +632,12 @@ img {
 .newsletter-btn-icon {
   margin-left: 10px;
 }
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz*/
 /*===END===newsletter====*/
 /*==========END=== Footer======*/
 
 /*=======Backdrop============*/
+/*zzzzzzzzzzzzzzzzzzzzzzzzz
 .backdrop {
   position: fixed;
   top: 0;
@@ -609,6 +648,8 @@ img {
 
   transition: opacity 250ms linear, visibility 250ms linear;
 }
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz*/
+/*zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
 .modal {
   position: absolute;
   top: 50%;
@@ -639,13 +680,16 @@ img {
   padding: 0;
   cursor: pointer;
 }
-
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz*/
+/*zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
 .is-hidden {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
 }
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz*/
 /*------Form-------*/
+/*zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
 .modal-form {
   display: flex;
   flex-direction: column;
@@ -723,7 +767,7 @@ img {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.01em;
-  color: rgba(117, 117, 117, 0.5)
+  color: rgba(117, 117, 117, 0.5);
   
   border: 1px solid rgba(33, 33, 33, 0.2);
   box-sizing: border-box;
@@ -781,6 +825,7 @@ img {
 .form-btn {
   margin: 0 auto;
 }
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz*/
 
 /*====END==Backdrop==========*/
 /*=======END==Index==========*/
@@ -789,6 +834,7 @@ img {
 /*==============================*/
 /*==========Portfolio===========*/
 /*=====Filter====*/
+/*zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
 .filter-list {
   display: flex;
   justify-content: center;
@@ -824,9 +870,11 @@ img {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz*/
 /*=====END== Filter=============*/
 
 /*===========Exemples===========*/
+/*zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
 .exemples-list {
   display: flex;
   flex-wrap: wrap;
@@ -876,7 +924,9 @@ img {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz*/
 /*=====overlay==*/
+/*zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
 .exemples-overlay-box {
   position: relative;
   overflow: hidden;
@@ -902,6 +952,7 @@ img {
 .exemples-link:focus .exemples-overlay-text {
   transform: translateY(-100%);
 }
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz*/
 /*===END==overlay=====*/
 
 /*=====END====Exemples============*/ ;
