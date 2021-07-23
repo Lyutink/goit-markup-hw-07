@@ -27,7 +27,7 @@
 .modal-form-wrapper {
   position: relative;
   display: block;
-   margin-top: 4px;
+  margin-top: 4px;
 }
 
 .modal-form-input {
@@ -42,6 +42,11 @@
   cursor: pointer;
 
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:focus {
+    outline: none;
+    border-color: var(--accent-color);
+  }
 }
 
 .modal-form-icon {
@@ -52,17 +57,11 @@
   transform: translateY(-50%);
 
   transition: fil 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.modal-form-input:focus{
-  outline: none;
-  border-color: var(--accent-color);
+  .modal-form-input:focus + & {
+    fill: var(--accent-color);
+  }
 }
-
-.modal-form-input:focus +.modal-form-icon{
-  fill: var(--accent-color);
-}
-
 
 .modal-form-comment {
   resize: none;
@@ -75,8 +74,8 @@
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.01em;
-  color: rgba(117, 117, 117, 0.5);
-  
+  color: var(--primary-black-color);
+
   border: 1px solid rgba(33, 33, 33, 0.2);
   box-sizing: border-box;
   border-radius: 4px;
@@ -84,18 +83,18 @@
   cursor: pointer;
 
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &::placeholder {
+    color: rgba(117, 117, 117, 0.5);
+  }
+
+  &:focus {
+    outline: none;
+    border-color: var(--accent-color);
+  }
 }
 
-.modal-form-comment::placeholder{
-  color: rgba(117, 117, 117, 0.5);
-}
-
-.modal-form-comment:focus {
-  outline: none;
-  border-color: var(--accent-color);
-}
-
-.modal-form-contract-label{
+.modal-form-contract-label {
   display: flex;
   align-items: center;
   width: 100%;
@@ -109,27 +108,25 @@
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
+
+  &::before {
+    content: "";
+    display: block;
+    width: 16px;
+    height: 15px;
+    border: 1px solid #212121;
+    margin-right: 7px;
+    cursor: pointer;
+
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .modal-form-contract-checkbox:checked + &::before {
+    border: none;
+    background-image: url(../images/icon-check.svg);
+  }
 }
 
-.modal-form-contract-label::before{
-  content: "";
-  display: block;
-  width: 16px;
-  height: 15px;
-  border: 1px solid #212121;
-  margin-right: 7px;
-  cursor: pointer;
-
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-}
-.modal-form-contract-checkbox:checked + .modal-form-contract-label::before{
-  border: none;
-  background-image: url(../images/icon-check.svg);
-}
-.modal-form-contract-checkbox:focus + .modal-form-contract-label::before{
-  border-color: var(--accent-color);
-}
 .form-btn {
   margin: 0 auto;
 }

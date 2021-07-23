@@ -1,9 +1,11 @@
-.edvantages-item:not(:last-child) {
-  margin-right: 30px;
-}
-
 .edvantages-list {
   display: flex;
+}
+
+.edvantages-item {
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
 .edvantages-icon-conteiner {
